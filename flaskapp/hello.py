@@ -46,7 +46,7 @@ def add_list_member(email,name):
     # sending mail to lead
     request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(domain)
     request = requests.post(request_url, auth=('api', key), data={
-        'from': 'santhi.nyros@gmail.com',
+        'from': '<yours@domainname.com',
         'to': email
         'subject': 'Hello',
         'text': 'Hello {0}, This is a Testing mail from mailgun'.format(name)
