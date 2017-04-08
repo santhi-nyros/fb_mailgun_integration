@@ -80,11 +80,11 @@ Server setup:
 
 Once you done the setup and run the app successfully, you need to add php app for webhook callback url
 
-Setup and run the php-gettting-started app into your server and made few changes on webhook.php file
+Setup and run the phpapp app into your server and made few changes on webhook.php file
 
 Here is the changes what will you make
 
-php-gettting-started/web/webhook.php
+phpapp/web/webhook.php
 
 changes the verify token what you given while creating webhook on facebook page
 I have given 'abc123' in webhook.php
